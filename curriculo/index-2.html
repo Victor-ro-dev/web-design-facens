@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mira Karlsson</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, 
+        }
+        
+
+        .container {
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            width: 90%;
+            margin: auto;
+            border: 2px solid black;
+        }
+
+        a {
+            text-decoration: none;
+            color: white;
+        }
+
+        a:visited {
+            text-decoration: none;
+        }
+
+        p {
+            text-align: justify;
+        }
+
+        li {
+            list-style: none;
+        }
+
+
+        header {
+            text-align: center;
+            background-color: rgb(240, 138, 65);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 150px;
+        }
+
+        header #titulo {
+            background-color: rgb(250, 242, 242);
+            padding: 15px 50px;
+            border: 2px solid aqua;
+        }
+
+        main {
+            padding: 30px 0px 30px 0px;
+            background-color: rgba(8, 8, 8, 0.89);
+            display: flex;
+
+        }
+
+        main p {
+            padding-top: 20px;
+            padding-right: 50px;
+            padding-bottom: 20px;
+            color: white;
+        }
+
+        main .principal {
+            order: 2;
+            flex-grow: 1;
+            margin-left: 30px;
+        }
+
+        main .principal h4 {
+            color: rgb(240, 138, 65);
+            padding-top: 20px;
+        }
+
+        main .principal h2 {
+            color: aqua;
+            padding-bottom: 10px;
+        }
+
+        main .lateral {
+            order: 1;
+            padding-right: 50px;
+            margin-right: 30px;
+            flex-basis: 400px;
+            flex-shrink: 0;
+            border-right: 2px solid rgba(255, 255, 255, 0.822);
+        }
+
+        .lateral #escolaridade,
+        #contato,
+        #skills {
+            margin-bottom: 50px;
+        }
+
+        main .lateral h4 {
+            color: rgb(240, 138, 65);
+            padding-top: 20px;
+            padding-left: 30px;
+        }
+
+        main .lateral h2 {
+            color: aqua;
+            padding-bottom: 10px;
+            padding-left: 30px;
+        }
+
+        main .lateral ul {
+            padding-top: 20px;
+            padding-left: 30px;
+        }
+
+        main .lateral li {
+            color: white;
+            padding: 10px 0px;
+        }
+
+        main .lateral p {
+            padding-left: 30px;
+        }
+
+        footer{
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <div id="titulo">
+                <h1>Victor Rodrigues de Oliveira</h1>
+                <br>
+                <h4>Developer Full Stack</h4>
+            </div>
+        </header>
+
+        <main>
+            <div class="principal">
+                <section id="sobre">
+                    <h2>Sobre</h2>
+                    <hr>
+                    <p>Em 2024, ingressei no curso de Engenharia de Computação na Facens e estou aprimorando minhas
+                        habilidades em programação. Desde o início, desenvolvi um grande interesse pela linguagem
+                        Python, principalmente por sua versatilidade, que permite seu uso tanto no front-end quanto no
+                        back-end. Python também me chamou atenção pelas suas diversas áreas de aplicação, como
+                        automação, inteligência artificial, análise de dados e desenvolvimento de interfaces gráficas.
+                        Além disso, explorei outras áreas da programação, estudando tecnologias de front-end, como HTML,
+                        CSS, Javascript e Bootstrap 5, e também ferramentas voltadas para análise de dados e banco de
+                        dados, como MySQL.</p>
+                </section>
+                <section id="conhecimento">
+                    <h2>Conhecimento</h2>
+                    <hr>
+                    <h4>Python</h4>
+                    <p>Habilidade em Python que vão desde o básico da lógica e dados até POO.<br>
+                        Utilização de Bibliotecas como Tkinter, Pandas, Numpy, Selenium.</p>
+
+                    <h4>HTML5/CSS3</h4>
+                    <p>Habilidades em Web design para contrução de sites básicos e complexos.<br>
+                        Conhecimento em HTML5, CSS3, Bootstrap, JS e Protocolo HTTP.</p>
+
+                    <h4>MySQL</h4>
+                    <P>Habilidades para construção de banco de dados e análise de dados.</P>
+                </section>
+                <section id="expericencia">
+                    <h2>Experiencia</h2>
+                    <hr>
+                    <h4>UPX-01</h4>
+                    <p>Facens (2024 - 1°semestre)</p>
+                    <p>Desenvolvimento de um layout de um app utilizando o Figma para integração de alunos com os cursos
+                        do Campus Facens.</p>
+
+                    <h4>Projeto Gerador de senhas</h4>
+                    <p>Autoria própria (2024 - 1°smestre)</p>
+                    <p>Desenvolvimento de uma interface utilizando Python com a biblioteca Tkinter. A interface tem como
+                        o objetivo a geração de senhas automáticas de 8 a 20 digitos com caracteres diversos.
+                </section>
+            </div>
+            <div class="lateral">
+                <section id="contato">
+                    <h2>Contato</h2>
+                    <hr>
+                    <ul>
+                        <li><i class="fa-solid fa-envelope"></i> victor.ro.dev10@gmail.com</li>
+                        <li><i class="fa-solid fa-phone"></i> (15) 98824-1704</li>
+                        <li><a href="https://www.linkedin.com/in/victor-ro-dev10/" target="_blank"><i
+                                    class="fa-brands fa-linkedin"></i> Linkedin</a></li>
+                        <li><a href="https://github.com/Victor-ro-dev" target="_blank"><i class="fa-brands fa-github"></i> GitHub</a></li>
+                    </ul>
+                </section>
+
+                <section id="skills">
+                <h2>Skills</h2>
+                <hr>
+                <ul>
+                    <li><i class="fab fa-python"></i> Python</li>
+                    <li><i class="fab fa-html5"></i> HTML5/CSS3</li>
+                    <li><i class="fab fa-js"></i> JavaScript</li>
+                    <li><i class="fa-solid fa-database"></i> MySQL</li>
+                    <li><i class="fab fa-bootstrap"></i> Bootstrap 5</li>
+                </ul>
+                </section>
+
+                <section id="escolaridade">
+                    <h2>Escolaridade</h2>
+                    <hr>
+                    <h4>Facens</h4>
+                    <p>Engenharia de Computação (2024) <br> Cursando 2º semestre.</p>
+
+                    <h4>Colégio Santa Escolástica</h4>
+                    <p>2° Fundamental - 3° ano do E.M. <br> (2012-2023)</p>
+                </section>
+
+            </div>
+        </main>
+    </div>
+    <footer>Desenvolvido por Victor Rodrigues de Oliveira
+            &copy; 2024</footer>
+</body>
+
+</html>
