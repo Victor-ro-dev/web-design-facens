@@ -1,0 +1,181 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    padding: 5px 0px;
+}
+
+body {
+    background-color: rgba(5, 4, 4, 0.808);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1rem;
+}
+
+
+hr {
+    background-color: rgb(235, 181, 116);
+    height: 2px;
+    border: 0;
+}
+
+header {
+    color: bisque;
+    text-align: center;
+}
+
+audio {
+    width: 100px;
+    height: 30px;
+    margin: 20px auto;
+    display: block;
+    background-color: transparent;
+    border: none;
+}
+
+#cabecalho {
+    display: flex;
+    justify-content: space-between;
+}
+
+#titulo-principal {
+    margin-right: 210px;
+}
+
+
+#lanchonete {
+    width: 1100px;
+    background-color: rgba(8, 8, 8, 0.808);
+    margin: auto;
+    background: url(https://i.pinimg.com/originals/e1/9a/d0/e19ad0cb81b8a658d0d93f053eb77d12.jpg) no-repeat center;
+    background-size: 1100px 1100px;
+    height: 1100px;
+    border-radius: 20px;
+
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 1100px;
+}
+
+.container img {
+    width: 150px;
+    height: 140px;
+}
+
+.conteudo {
+    margin-top: 20px;
+}
+
+
+.bloco-standard {
+    height: 450px;
+    width: 100%;
+    max-width: 400px;
+    background: rgb(26, 16, 16);
+    border-radius: 15px;
+    margin: 25px;
+}
+
+.bloco-standard .conteudo {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+.bloco-standard .lanches li {
+    padding-left: 10px;
+    list-style: none;
+    margin-bottom: 5px;
+}
+
+.valores {
+    padding-right: 10px;
+}
+
+.bloco-standard .valores h4 {
+    margin-top: 5px;
+    margin-bottom: 35px;
+}
+
+.titulo {
+    font-family: "Shadows Into Light", cursive;
+}
+
+
+.bloco-horizontal {
+    height: 200px;
+    width: 100%;
+    max-width: 600px;
+    background: rgb(26, 16, 16);
+    margin: 25px 0px;
+    border-bottom-left-radius: 100px;
+    border-top-left-radius: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.bloco-horizontal img,
+picture {
+    border-radius: 50%;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.bloco-horizontal .informacoes {
+    width: 500px;
+    height: 175px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    padding-left: 10px;
+}
+
+.informacoes section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.informacoes .ingrediente ul {
+    list-style: inside;
+}
+
+.informacoes section .preco {
+    height: 60px;
+    width: 150px;
+    background-color: bisque;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+
+}
+
+.preco h3 {
+    text-align: center;
+    line-height: 3em;
+    color: black;
+}
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .bloco-standard,
+    .bloco-horizontal {
+        width: 90%;
+        margin: 10px auto;
+    }
+}
+
+footer {
+    line-height: 5em;
+    text-align: center;
+}
