@@ -1,0 +1,66 @@
+{
+    "results": [
+        {
+            "gender": "female",
+            "name": {
+                "title": "Mrs",
+                "first": "Bertha",
+                "last": "May"
+            },
+            "location": {
+                "street": {
+                    "number": 6696,
+                    "name": "Saddle Dr"
+                },
+                "city": "Tulsa",
+                "state": "Missouri",
+                "country": "United States",
+                "postcode": 25634,
+                "coordinates": {
+                    "latitude": "86.7300",
+                    "longitude": "33.1682"
+                },
+                "timezone": {
+                    "offset": "+4:00",
+                    "description": "Abu Dhabi, Muscat, Baku, Tbilisi"
+                }
+            },
+            "email": "bertha.may@example.com",
+            "login": {
+                "uuid": "1999abe7-2a1c-463b-928f-d5bc16e4e86a",
+                "username": "yellowsnake433",
+                "password": "longhorn",
+                "salt": "NeXAoRwl",
+                "md5": "0be410eb61e20fd10d8d3c1c33550215",
+                "sha1": "49a7e2857175a97cdee07d17dc6d0cf046f68e98",
+                "sha256": "51d6023571af3ee2aa6840de0f2597ccfdba4e1c3b551bedc24316d8014495aa"
+            },
+            "dob": {
+                "date": "1985-01-29T10:05:59.461Z",
+                "age": 39
+            },
+            "registered": {
+                "date": "2017-11-22T15:05:10.775Z",
+                "age": 6
+            },
+            "phone": "(593) 954-6060",
+            "cell": "(940) 265-4934",
+            "id": {
+                "name": "SSN",
+                "value": "005-16-4798"
+            },
+            "picture": {
+                "large": "https://randomuser.me/api/portraits/women/6.jpg",
+                "medium": "https://randomuser.me/api/portraits/med/women/6.jpg",
+                "thumbnail": "https://randomuser.me/api/portraits/thumb/women/6.jpg"
+            },
+            "nat": "US"
+        }
+    ],
+    "info": {
+        "seed": "50e42407fa990f04",
+        "results": 1,
+        "page": 1,
+        "version": "1.4"
+    }
+}

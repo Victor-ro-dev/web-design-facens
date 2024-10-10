@@ -1,0 +1,22 @@
+body {
+    background-color: #a7978570;
+}
+
+li {
+    margin: 10px;
+}
+
+#grafico {
+    width: 300px;
+    height: 300px;
+}
+
+.api {
+    width: 400px;
+    height: 400px;
+}
+
+#container {
+    display: flex;
+    justify-content: space-between;
+}

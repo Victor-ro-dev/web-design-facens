@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="http://www.michalpaszkiewicz.co.uk/plotjs/plotjs.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="container">
+        <div class="api">
+            <label for="cep_in">CEP</label>
+            <input type="text" name="cep_in" id="cep_in">
+            <button type="button" onclick="buscar()">Buscar</button>
+            <ul>
+                <li id="logradouro">Rua/Av</li>
+                <li id="bairro">Bairro</li>
+                <li id="localidade">Cidade/UF</li>
+            </ul>
+        </div>
+
+        <div class="api">
+            <button style="display: block; margin-left: 25%;" type="button" onclick="fazer_grafico()">Criar Gráfico</button>
+            <br>
+            <canvas id="grafico"></canvas>
+        </div>
+
+        <div class="api">
+            <img id="foto" alt="Foto do usuário">
+            <h2 id="nome"></h2>
+            <p id="idade"></p>
+            <p id="genero"></p>
+            <p id="endereco"></p>
+            <p id="registro"></p>
+            <button type="button" onclick="usuario()">Gerar Novo Usuário</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
