@@ -1,0 +1,82 @@
+/* Reset básico para remoção de margens e padding padrão */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f7f6;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#container {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    width: 400px;
+    text-align: center;
+}
+
+.api {
+    margin-bottom: 20px;
+}
+
+label {
+    font-size: 1.2rem;
+    color: #333;
+    font-weight: 600;
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    transition: border 0.3s ease;
+}
+
+input[type="text"]:focus {
+    border-color: #00bfa6;
+    outline: none;
+}
+
+button {
+    background-color: #00bfa6;
+    color: #ffffff;
+    font-size: 1rem;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #008f7a;
+}
+
+ul {
+    list-style: none;
+    text-align: left;
+    padding: 0;
+    margin-top: 15px;
+}
+
+ul li {
+    font-size: 1rem;
+    padding: 8px 0;
+    border-bottom: 1px solid #e0e0e0;
+    color: #555;
+}
+

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerador de Piadas com Cachorros</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Gerador de Piadas com Cachorros!</h1>
+    </header>
+
+    <main>
+        <section id="secao-cachorro">
+            <h2>Dog mal muito brabo!</h2>
+            <img id="imagem-cachorro" alt="Cachorro Aleatório" src="">
+        </section>
+
+        <section id="secao-piada">
+            <h2>Piadas muito boas em inglês:</h2>
+            <p id="piada-inicio"></p>
+
+            <!-- Botão para alternar entre revelar e esconder a punchline -->
+            <button id="toggle-btn" onclick="togglePunchline()">Revelar Resposta</button>
+
+            <!-- Resposta da piada -->
+            <div>
+                <p id="piada-final"></p>
+            </div>
+        </section>
+
+        <button id="nova-piada-btn" onclick="novaPiadaECachorro()">Obter Nova Piada!</button>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
